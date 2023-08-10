@@ -15,7 +15,7 @@ export default function SearchBar() {
   }, [searchParamsQ]);
 
   // Purpose of this function is to push the user to the search page with the keyword from the input. The server side data fetching will be automatically triggered.
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (keyword) {
       router.push(`/search?q=${keyword}`);
@@ -23,6 +23,11 @@ export default function SearchBar() {
       router.push("/search");
     }
   }
+
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setKeyword(event.target.value);
+  }
+
 
   return (
     <form onSubmit={handleSubmit}>
@@ -55,7 +60,7 @@ export default function SearchBar() {
           id="keyword"
           name="keyword"
           value={keyword}
-          onChange={(event) => setKeyword(event.target.value)}
+          onChange={handleInputChange}
           className="w-full rounded-lg border border-gray-300 bg-gray-50 p-4 pl-10 text-xs text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
           placeholder="Search with keyword in title or description"
         />
