@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# `simple-portfolio-cwntf`
+
+Practice quick web dev with Next.js. No backend.
+
+https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e-4a82-a2b5-9c3242c0ab3e
+
+## Description
+
+**Series:**
+
+1. [Code Crafts on Medium](https://medium.com/@saikise/list/code-crafts-21a1d1eaecf4)
+
+**Platform:**
+
+1. Web
+
+**Stack:**
+
+1. [Next.js 13](https://nextjs.org/docs)
+1. [Tailwind CSS](https://tailwindcss.com/)
+1. [Flowbite](https://flowbite.com/)
+
+**Notes:**
+
+1. No backend needed. Portfolio data stored in `projects.tsx` and `data.tsx`.
+1. Uses Next.js App Router (mostly server components).
+1. No global state.
+
+
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Before you begin, ensure you have the following software installed:
+
+1. [GitHub CLI](https://cli.github.com/manual/installation)
+1. [Node.js 16.8](https://nodejs.org/) or later.
+1. macOS, Windows (including WSL), and Linux are supported.
+
+### Installation
+
+1. Create your GitHub repo using this project as template.
+
+```bash
+gh repo create <repo-name> --public --template=saikise/simple-portfolio-cwntf
+```
+
+1. Install the dependencies listed in `package.json`.
+
+```bash
+npm i
+```
+
+### Usage
+
+To run the project, use the following command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tags
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.js 13 App Router
+- Next.js client components
+- Next.js server components
+- Full-stack web dev
