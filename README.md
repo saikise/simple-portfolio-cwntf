@@ -22,7 +22,7 @@ https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e
 
 **Notes:**
 
-1. No backend needed. Portfolio data stored in `projects.tsx` and `data.tsx`.
+1. No backend needed. Portfolio data stored in `projects.tsx` and `data.ts`.
 1. Uses Next.js App Router (mostly server components).
 1. No global state.
 
