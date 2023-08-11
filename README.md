@@ -2,6 +2,8 @@
 
 Practice quick web dev with Next.js. No backend.
 
+![simple-portfolio-cwntf project image](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/bd7823b6-5cd7-468c-9fd8-4fa31d7dc1d0)
+
 https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e-4a82-a2b5-9c3242c0ab3e
 
 ## Description
@@ -25,8 +27,6 @@ https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e
 1. No backend needed. Portfolio data stored in `projects.tsx` and `data.ts`.
 1. Uses Next.js App Router (mostly server components).
 1. No global state.
-
-
 
 ## Getting Started
 
@@ -62,6 +62,8 @@ npm run dev
 
 ## Tags
 
+- Web dev
+- React
 - Next.js 13 App Router
 - Next.js client components
 - Next.js server components
