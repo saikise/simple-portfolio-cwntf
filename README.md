@@ -6,7 +6,7 @@ Practice quick web dev with Next.js. No backend.
 
 https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e-4a82-a2b5-9c3242c0ab3e
 
-![Component Visualization](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/7fd6eb4e-9854-49f9-a9d0-ded5c748532c)
+![Component Visualization](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/bab6cf7c-3543-4b38-9c40-cc0e6847d5bd)
 
 ## Description
 
