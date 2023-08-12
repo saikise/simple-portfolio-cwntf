@@ -1,6 +1,6 @@
 # `simple-portfolio-cwntf`
 
-Practice quick web dev with Next.js. No backend.
+Practice quick web dev with Next.js following a single article. No backend.
 
 ![simple-portfolio-cwntf project image](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/bd7823b6-5cd7-468c-9fd8-4fa31d7dc1d0)
 
