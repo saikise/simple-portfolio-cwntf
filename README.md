@@ -2,13 +2,22 @@
 
 Practice quick web dev with Next.js following a single article. No backend.
 
-![simple-portfolio-cwntf project image](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/bd7823b6-5cd7-468c-9fd8-4fa31d7dc1d0)
+![simple-portfolio-cwntf Thumbnail Image](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/f01607f8-47e3-48e7-8c2d-b17b482372bf)
+
 
 https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e-4a82-a2b5-9c3242c0ab3e
 
 ![Component Visualization](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/bab6cf7c-3543-4b38-9c40-cc0e6847d5bd)
 
 ## Description
+
+**Tutorial on Medium**
+
+1. https://medium.com/@saikise/code-crafts-simple-portfolio-cwntf-88b6e48a50e3
+
+**Live demo on Vercel**
+
+1. https://simple-portfolio-cwntf.vercel.app
 
 **Series:**
 
