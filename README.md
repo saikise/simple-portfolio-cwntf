@@ -1,6 +1,6 @@
-# `simple-portfolio-cwntf`
+# Code Crafts: Simple Portfolio — Next.js, Tailwind CSS, Flowbite
 
-Practice quick web dev with Next.js following a single article. No backend.
+Practice quick web dev with Next.js 13 App Router following a single article. No backend.
 
 ![simple-portfolio-cwntf Thumbnail Image](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/f01607f8-47e3-48e7-8c2d-b17b482372bf)
 
