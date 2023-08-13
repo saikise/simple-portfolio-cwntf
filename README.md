@@ -1,8 +1,8 @@
-# Code Crafts: Simple Portfolio — Next.js, Tailwind CSS, Flowbite
+# Code Practice: Simple Portfolio — Next.js, Tailwind CSS, Flowbite
 
 Practice quick web dev with Next.js 13 App Router following a single article. No backend.
 
-![simple-portfolio-cwntf Thumbnail Image](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/f01607f8-47e3-48e7-8c2d-b17b482372bf)
+![simple-portfolio-cwntf Thumbnail Image](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/ff5e9652-106f-4840-8b7a-3332e266779d)
 
 
 https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e-4a82-a2b5-9c3242c0ab3e
@@ -21,7 +21,7 @@ https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e
 
 **Series:**
 
-1. [Code Crafts on Medium](https://medium.com/@saikise/list/code-crafts-21a1d1eaecf4)
+1. [Code Practice on Medium](https://medium.com/@saikise/list/code-practice-21a1d1eaecf4)
 
 **Platform:**
 
