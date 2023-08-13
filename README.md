@@ -21,7 +21,7 @@ https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e
 
 **Series:**
 
-1. [Code Practice on Medium](https://medium.com/@saikise/list/code-practice-21a1d1eaecf4)
+1. [Code Practice on Medium](https://medium.com/@saikise/list/code-practice-780f4532716a)
 
 **Platform:**
 
@@ -70,13 +70,3 @@ To run the project, use the following command:
 ```bash
 npm run dev
 ```
-
-## Tags
-
-- Web dev
-- React
-- Next.js 13 App Router
-- Next.js client components
-- Next.js server components
-- Full-stack web dev
-- Programming tutorial
