@@ -18,16 +18,13 @@ export const SERIES = [
     title: "Desktop Projects",
   },
 ];
-export const PINNED = projects.filter((project) => project.pinned).slice(0, 4);
+export const PINNED = projects.filter((project) => project.pinned);
 export const WEB_PROJECTS = projects
-  .filter((project) => project.series.code === "web-projects")
-  .slice(0, 4);
+  .filter((project) => project.series.code === "web-projects");
 export const MOBILE_PROJECTS = projects
-  .filter((project) => project.series.code === "mobile-projects")
-  .slice(0, 4);
+  .filter((project) => project.series.code === "mobile-projects");
 export const DESKTOP_PROJECTS = projects
-  .filter((project) => project.series.code === "desktop-projects")
-  .slice(0, 4);
+  .filter((project) => project.series.code === "desktop-projects");
 export const TOP_SEARCHES = [
   {
     title: "Clone",

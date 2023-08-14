@@ -33,7 +33,7 @@ export default async function Page() {
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5">
-            {PINNED.map((project) => (
+            {PINNED.slice(0, 4).map((project) => (
               <div key={`update-project-card-${project.id}`} className="w-full">
                 <ProjectCard {...project} />
               </div>
@@ -55,7 +55,7 @@ export default async function Page() {
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5">
-            {WEB_PROJECTS.map((project) => (
+            {WEB_PROJECTS.slice(0, 4).map((project) => (
               <div key={`update-project-card-${project.id}`} className="w-full">
                 <ProjectCard {...project} />
               </div>
@@ -77,7 +77,7 @@ export default async function Page() {
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5">
-            {MOBILE_PROJECTS.map((project) => (
+            {MOBILE_PROJECTS.slice(0, 4).map((project) => (
               <div key={`update-project-card-${project.id}`} className="w-full">
                 <ProjectCard {...project} />
               </div>
@@ -99,7 +99,7 @@ export default async function Page() {
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5">
-            {DESKTOP_PROJECTS.map((project) => (
+            {DESKTOP_PROJECTS.slice(0, 4).map((project) => (
               <div key={`update-project-card-${project.id}`} className="w-full">
                 <ProjectCard {...project} />
               </div>
