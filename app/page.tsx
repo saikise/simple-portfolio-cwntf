@@ -42,7 +42,7 @@ export default async function Page() {
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5">
             {pinned.map((project) => (
-              <div key={`update-project-card-${project.id}`} className="w-full">
+              <div key={`project-card-${project.id}`} className="w-full">
                 <ProjectCard {...project} />
               </div>
             ))}
@@ -69,7 +69,7 @@ export default async function Page() {
               <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5">
                 {projects.slice(0, 4).map((project) => (
                   <div
-                    key={`update-project-card-${project.id}`}
+                    key={`project-card-${project.id}`}
                     className="w-full"
                   >
                     <ProjectCard {...project} />
