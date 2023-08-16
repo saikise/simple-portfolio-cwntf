@@ -1,14 +1,12 @@
-import { Metadata } from "next";
 import Script from "next/script";
 import Shell from "../components/Shell";
 import "./globals.css";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Demo of simple-portfolio-cwntf",
   description:
-    "Quick project. No backend needed. Stack: Next, Tailwind, Flowbite. Tags: Full-stack dev, Next.js 13 app router.",
+    "Code Practice: Simple Portfolio — Next.js 13 App Router, Tailwind CSS, Flowbite",
 };
-
 export default function RootLayout({
   children,
 }: {

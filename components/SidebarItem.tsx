@@ -5,10 +5,10 @@ import Link from "next/link";
 interface SidebarItemProps {
   title: string;
   url: string;
-  svg: JSX.Element;
+  icon: JSX.Element;
 }
 
-export default function SidebarItem({ title, url, svg }: SidebarItemProps) {
+export default function SidebarItem({ title, url, icon }: SidebarItemProps) {
   return (
     <>
       <button
@@ -22,7 +22,7 @@ export default function SidebarItem({ title, url, svg }: SidebarItemProps) {
         href={url}
         className="group flex items-center rounded-lg p-2 text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
       >
-        {svg}
+        {icon}
         <span className="ml-4 text-sm">{title}</span>
       </Link>
     </>

@@ -22,12 +22,11 @@ export default function SearchBar() {
     } else {
       router.push("/search");
     }
-  }
+  };
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setKeyword(event.target.value);
-  }
-
+  };
 
   return (
     <form onSubmit={handleSubmit}>

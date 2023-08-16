@@ -1,35 +1,8 @@
-import {
-  DESKTOP_ICON,
-  GITHUB_ICON,
-  HOME_ICON,
-  MEDIUM_ICON,
-  MOBILE_ICON,
-  SEARCH_ICON,
-  WEB_ICON,
-  YOUTUBE_ICON,
-} from "../constants/icons";
+import { SERIES_LIST, SOCIALS } from "@/constants/data";
+import { FOLDER_ICON, HOME_ICON, SEARCH_ICON } from "../constants/icons";
 import SidebarItem from "./SidebarItem";
 import SidebarToggleClose from "./SidebarToggleClose";
 import Socials from "./Socials";
-
-// Your social platforms. Where people can find you.
-const socials = [
-  {
-    key: "socialsMedium",
-    url: "https://medium.com/@saikise",
-    svg: MEDIUM_ICON,
-  },
-  {
-    key: "socialsGitHub",
-    url: "https://github.com/saikise",
-    svg: GITHUB_ICON,
-  },
-  {
-    key: "socialsYouTube",
-    url: "https://youtube.com/@saikise",
-    svg: YOUTUBE_ICON,
-  },
-];
 
 export default async function Sidebar() {
   return (
@@ -44,34 +17,22 @@ export default async function Sidebar() {
             <SidebarToggleClose />
           </li>
           <li key="sidebarItemHome">
-            <SidebarItem title="Home" url="/" svg={HOME_ICON} />
+            <SidebarItem title="Home" url="/" icon={HOME_ICON} />
           </li>
           <li key="sidebarItemSearch">
-            <SidebarItem title="Search" url={"/search"} svg={SEARCH_ICON} />
+            <SidebarItem title="Search" url={"/search"} icon={SEARCH_ICON} />
           </li>
         </ul>
         <ul className="mt-5 space-y-2 border-t border-gray-200 pt-5 dark:border-gray-700">
-          <li key="sidebarItemWebProjects">
-            <SidebarItem
-              title="Web Projects"
-              url={"/web-projects"}
-              svg={WEB_ICON}
-            />
-          </li>
-          <li key="sidebarItemMobileProjects">
-            <SidebarItem
-              title="Mobile Projects"
-              url={"/mobile-projects"}
-              svg={MOBILE_ICON}
-            />
-          </li>
-          <li key="sidebarItemDesktopProjects">
-            <SidebarItem
-              title="Desktop Projects"
-              url={"/desktop-projects"}
-              svg={DESKTOP_ICON}
-            />
-          </li>
+          {SERIES_LIST.map((series) => (
+            <li key={series.code}>
+              <SidebarItem
+                title={series.title}
+                url={series.code}
+                icon={series.icon || FOLDER_ICON}
+              />
+            </li>
+          ))}
         </ul>
         <div className="absolute bottom-0 left-0 z-20 w-full space-x-4 bg-white px-4 pb-4 dark:bg-gray-800 lg:flex">
           <div className="flex w-full flex-nowrap justify-center gap-2">
@@ -81,7 +42,7 @@ export default async function Sidebar() {
             <span className="flex flex-nowrap items-center justify-center whitespace-nowrap text-sm text-gray-900 dark:text-white">
               •
             </span>
-            <Socials socials={socials} />
+            <Socials socials={SOCIALS} />
           </div>
         </div>
       </div>

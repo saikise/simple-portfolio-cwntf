@@ -9,7 +9,7 @@ export default function ProjectRow({
   image,
   title,
   description,
-  demo,
+  platforms,
 }: ProjectRowProps) {
   return (
     <div className="flex w-full flex-row rounded-lg border border-gray-200 bg-white p-2 shadow dark:border-gray-700 dark:bg-gray-800">
@@ -37,18 +37,20 @@ export default function ProjectRow({
             </p>
           </div>
 
-          {/* Print demo link if existing. */}
-          {demo && (
-            <Link
-              key={`project-row-demo-${demo.id}`}
-              href={demo.url}
-              className="inline-flex w-fit items-center justify-center rounded-lg border border-gray-200 bg-white px-3 py-2 text-xs font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700"
-              target="_blank"
-              rel="noopener"
-            >
-              {demo.svg} <span className="ml-2">{demo.name}</span>
-            </Link>
-          )}
+          <div className="flex flex-row gap-2">
+            {platforms.length &&
+              platforms.map((platform) => (
+                <Link
+                  key={`project-row-platform-${platform.title}`}
+                  href={platform.url}
+                  className="inline-flex w-fit items-center justify-center rounded-lg border border-gray-200 bg-white px-3 py-2 text-xs font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  {platform.icon} <span className="ml-2">{platform.title}</span>
+                </Link>
+              ))}
+          </div>
         </div>
       </div>
     </div>

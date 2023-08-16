@@ -1,18 +1,23 @@
+export interface Series {
+  code: string;
+  title: string;
+  description: string;
+  icon?: JSX.Element;
+  miniIcon?: JSX.Element;
+}
+
+export interface Platform {
+  title: string;
+  url: string;
+  icon: JSX.Element;
+}
+
 export interface Project {
-  id: string; //uuid
+  id: string;
   pinned?: boolean;
   title: string;
   description: string;
   image: string;
-  series: {
-    id: string; //uuid
-    code: string; // web-projects, mobile-projects, desktop-projects
-    title: string; // Web Projects, Mobile Projects, Desktop Projects
-  };
-  demo: {
-    id: string; //uuid
-    name: string;
-    url: string; // your own domain or codepen
-    svg: JSX.Element; // use DEMO_ICON
-  };
+  series: Series;
+  platforms: Platform[];
 }
