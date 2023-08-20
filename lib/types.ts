@@ -3,7 +3,6 @@ export interface Series {
   title: string;
   description: string;
   icon?: JSX.Element;
-  miniIcon?: JSX.Element;
 }
 
 export interface Platform {
