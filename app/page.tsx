@@ -27,10 +27,9 @@ export default async function Page() {
         <i className="text-sm font-normal text-gray-700 dark:text-gray-400">
           Quick project. No backend needed.
           <br />
-          <b>Stack:</b> Next, Tailwind, Flowbite.
+          <b>Stack:</b> Next.js, Tailwind CSS, Flowbite.
           <br />
-          <b>Tags:</b> Full-stack dev, Next.js 13 app router.
-          {/* https://medium.com/@saikise/code-crafts-simple-portfolio-cwntf-88b6e48a50e3 */}
+          <b>Tags:</b> Next.js 13 App Router.
         </i>
       </div>
       {!!pinned.length && (
