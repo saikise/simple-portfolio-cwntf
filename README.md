@@ -11,7 +11,7 @@ https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e
 
 ## Description
 
-**Tutorial on Medium**
+**Complete Step-by-step Tutorial on Medium**
 
 1. https://medium.com/@saikise/code-crafts-simple-portfolio-cwntf-88b6e48a50e3
 
