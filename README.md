@@ -1,6 +1,6 @@
 # Code Practice: Simple Portfolio — Next.js, Tailwind CSS, Flowbite
 
-Practice quick web dev with Next.js 13 App Router following a single article. No backend.
+Practice quick web dev with Next.js 13 App Router following a single article. No back-end.
 
 ![simple-portfolio-cwntf Thumbnail Image](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/ff5e9652-106f-4840-8b7a-3332e266779d)
 
@@ -35,7 +35,7 @@ https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e
 
 **Notes:**
 
-1. No backend needed. Portfolio data stored `data.ts`.
+1. No back-end needed. Portfolio data stored `data.ts`.
 1. Uses Next.js App Router (mostly server components).
 1. No global state.
 
