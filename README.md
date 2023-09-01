@@ -1,19 +1,12 @@
 # Code Practice: Simple Portfolio — Next.js, Tailwind CSS, Flowbite
 
-Practice quick web dev with Next.js 13 App Router following a single article. No back-end.
-
-![simple-portfolio-cwntf Thumbnail Image](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/ff5e9652-106f-4840-8b7a-3332e266779d)
-
-
-https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e-4a82-a2b5-9c3242c0ab3e
-
-![Component Visualization](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/bab6cf7c-3543-4b38-9c40-cc0e6847d5bd)
+Create simple portfolio following a single article. No back-end.
 
 ## Description
 
-**Complete Step-by-step Tutorial on Medium**
+**Complete Step-by-step Tutorial**
 
-1. https://medium.com/@saikise/code-crafts-simple-portfolio-cwntf-88b6e48a50e3
+1. [Read on Medium](https://medium.com/@saikise/code-crafts-simple-portfolio-cwntf-88b6e48a50e3)
 
 **Live demo on Vercel**
 
@@ -23,9 +16,10 @@ https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e
 
 1. [Code Practice on Medium](https://medium.com/@saikise/list/code-practice-780f4532716a)
 
-**Platform:**
+**Some concepts you’ll see here**
 
-1. Web
+1. Next.js App Router
+1. Next.js server and client components
 
 **Stack:**
 
@@ -35,9 +29,12 @@ https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/fa912d41-1f2e
 
 **Notes:**
 
-1. No back-end needed. Portfolio data stored `data.ts`.
-1. Uses Next.js App Router (mostly server components).
+1. No back-end needed. Portfolio data stored in `data.ts`.
 1. No global state.
+
+**Preview**
+
+![Preview](https://github.com/saikise/simple-portfolio-cwntf/assets/134133636/ca9f1e99-a399-4e91-b4f0-1030984d5532)
 
 ## Getting Started
 
@@ -48,6 +45,8 @@ Before you begin, ensure you have the following software installed:
 1. [GitHub CLI](https://cli.github.com/manual/installation)
 1. [Node.js 16.8](https://nodejs.org/) or later.
 1. macOS, Windows (including WSL), and Linux are supported.
+1. [Prettier VS Code Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+1. [Tailwind Fold (Optional)](https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold)
 
 ### Installation
 
