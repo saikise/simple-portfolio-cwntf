@@ -25,11 +25,11 @@ export default async function Page() {
           </Link>
         </h3>
         <i className="text-sm font-normal text-gray-700 dark:text-gray-400">
-          Quick project. No backend needed.
+          Create simple portfolio following a single article. No back-end.
           <br />
           <b>Stack:</b> Next.js, Tailwind CSS, Flowbite.
           <br />
-          <b>Tags:</b> Next.js 13 App Router.
+          <b>Tags:</b> Next.js App Router.
         </i>
       </div>
       {!!pinned.length && (
